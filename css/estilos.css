@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+figure{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+}
+.menu{
+    height:inherit;
+}
+.header a{
+    color:white;
+    height:inherit;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    padding:0 15px;
+}
+.header ol,li{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    height:inherit;
+}
+
+
+.container{
+    margin:0 auto;
+    width:1000px;
+    height: inherit;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	flex-wrap: inherit;
+}
