@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    family-font:Mulish, varta, quicksand;
+    font-family:Mulish, varta, quicksand;
 }
 figure{
     margin:0;
@@ -14,6 +14,7 @@ figure{
     justify-content:space-between;
     align-items:center;
     height:80px;
+    font-size: 25px
 }
 .menu{
     height:inherit;
@@ -45,23 +46,23 @@ figure{
 	flex-wrap: inherit;
 }
 .about{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    align-items:initial;
     height:300px;
+    margin-left: 10%;
+    margin-right= 10%;
 }
 .luis{
-    margin-left: 50%;
-    margin-right= 0;
-    width: 49%;	
+    margin-left: 40%;
+    margin-right= 5%;
+    width: 44%;	
 	
 }
 .me{
     white-space: normal;
-    margin-right: 50%;
-    margin-left= 0;	
-    width: 49%	
-	 
+    margin-right: 40%;
+    margin-left= 5%;	
+    width: 44%;
+    text-align: right; 
 }
 .curriculum{
 
