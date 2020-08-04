@@ -49,18 +49,16 @@ figure{
     align-items:initial;
     height:300px;
     margin-left: 10%;
-    margin-right= 10%;
+    margin-right: 10%;
 }
 .luis{
-    margin-left: 40%;
-    margin-right= 5%;
+    margin-right: 40%;
     width: 44%;	
-	
+    float: left;
 }
 .me{
     white-space: normal;
-    margin-right: 40%;
-    margin-left= 5%;	
+    margin-left: 40%;	
     width: 44%;
     text-align: right; 
 }
