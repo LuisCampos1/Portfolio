@@ -47,23 +47,20 @@ figure{
 }
 .about{
     height:300px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 100%;	
+    margin: 5%;
+    display:flex;
+    
 }
 .luis{
-    width: 100%;
+    display:flex;
+    width: 30%;
+    justify-content:center;
 }
 .me{
     white-space: normal;
-    width: 100%;
+    width: 60%;
     text-align: justify;
-    font-size: 22px;
-}
-.foto {
-    widht= 49%;
-    vertical-align: middle;
-    float: right;
+    font-size: 25px;
 }
 .curriculum{
 
