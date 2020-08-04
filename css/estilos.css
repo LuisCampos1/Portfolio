@@ -51,15 +51,15 @@ figure{
     margin-right: 5%;
 }
 .luis{
-    margin-left: 50%;
     width: 49%;
+    vertical-align: middle;
 }
 .me{
     white-space: normal;
-    margin-right: 50%;	
+    margin-right: 5%	
     width: 49%;
     text-align: justify;
-    font-size: 25px
+    font-size: 22px
 }
 .curriculum{
 
