@@ -56,12 +56,12 @@ figure{
 }
 .me{
     white-space: normal;
-    width: 100%;
+    width: 60%;
     text-align: justify;
     font-size: 22px;
 }
 .foto {
-    widht= 49%;
+    widht= 40%;
     vertical-align: middle;
     float: right;
 }
