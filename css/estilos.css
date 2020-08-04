@@ -44,3 +44,28 @@ figure{
 	align-items: inherit;
 	flex-wrap: inherit;
 }
+.about{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:300px;
+}
+.luis{
+    margin-left: 50%;
+    margin-right= 0;
+    width: 49%;	
+	
+}
+.me{
+    white-space: normal;
+    margin-right: 50%;
+    margin-left= 0;	
+    width: 49%	
+	 
+}
+.curriculum{
+
+}
+.contact{
+	
+}
