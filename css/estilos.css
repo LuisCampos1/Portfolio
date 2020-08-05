@@ -66,6 +66,7 @@ h1, h2 {
     width: 60%;
     text-align: justify;
     font-size: 28px;
+    align-items:center;
 }
 
 .curriculum{
