@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family:Mulish, varta, quicksand;
+    color:white;
 }
 figure{
     margin:0;
@@ -9,7 +10,7 @@ figure{
 }
 
 .header{
-    background-color:black;
+    background-color: #001233;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -19,7 +20,7 @@ figure{
 .menu{
     height:inherit;
 }
-.header a{
+.header a {
     color:white;
     height:inherit;
     text-decoration:none;
@@ -45,11 +46,15 @@ figure{
 	align-items: inherit;
 	flex-wrap: inherit;
 }
+h1, h2 {
+    font-size: 30px;
+    margin: 4%
+}
 .about{
     height:300px;
     margin: 5%;
     display:flex;
-    
+    background-color: #0353A4;
 }
 .luis{
     display:flex;
@@ -60,11 +65,33 @@ figure{
     white-space: normal;
     width: 60%;
     text-align: justify;
-    font-size: 25px;
+    font-size: 28px;
 }
-.curriculum{
 
+.curriculum{
+    background-color: #979DAC;
 }
 .contact{
-	
+    margin:0 auto;
+    width:1000px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:90px;
+    font-size: 18px;
+    background-color: #001845
+}
+.thanks{
+    display:flex;
+    align-items:center;
+}
+.ig{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+.github{
+    display:flex;
+    margin:0;
+    padding:0;	
 }
