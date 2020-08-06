@@ -54,7 +54,6 @@ h1, h2 {
      height:250px;
      margin: 5%;
      display:flex;
-     background-color: #0353A4;
 }
 .luis{
      display:flex;
@@ -70,16 +69,17 @@ h1, h2 {
 }
 
 .curriculum{
-     background-color: #979DAC;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
 }
 
 .certificates-box{
-	margin: 10px;
+	border: 1px solid #ccc;
 	margin: 10px;
 	width: 450px;
+	overflow: hidden;
+	border-radius: 5px;
 }
 .certificate-img{
         object-fit:cover;
@@ -92,7 +92,9 @@ h1, h2 {
 	padding: 10px;
 	margin: 20px;
 	position: relative;
+	border-radius: 5px;
 }
+
 .certificate-url{
 	display: flex;
 	align-items: center;
@@ -108,19 +110,23 @@ h1, h2 {
     align-items:center;
     height:90px;
     font-size: 18px;
-    background-color: #001845
+    background-color: #001845;
+    height: inherit;
 }
 .thanks{
     display:flex;
-    align-items:center;
 }
 .ig{
     display:flex;
     margin:0;
     padding:0;
+        width:70px;
+	height: 70px;
 }
 .github{
     display:flex;
     margin:0;
     padding:0;	
+	width:70px;
+	height: 70px;
 }
