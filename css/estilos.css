@@ -47,30 +47,58 @@ figure{
 	flex-wrap: inherit;
 }
 h1, h2 {
-    font-size: 30px;
-    margin: 4%
+     font-size: 30px;
+     margin: 4%
 }
 .about{
-    height:300px;
-    margin: 5%;
-    display:flex;
-    background-color: #0353A4;
+     height:250px;
+     margin: 5%;
+     display:flex;
+     background-color: #0353A4;
 }
 .luis{
-    display:flex;
-    width: 30%;
-    justify-content:center;
+     display:flex;
+     width: 30%;
+     justify-content:center;
 }
 .me{
-    white-space: normal;
-    width: 60%;
-    text-align: justify;
-    font-size: 28px;
-    align-items:center;
+     white-space: normal;
+     width: 60%;
+     text-align: justify;
+     font-size: 28px;
+     align-items:center;
 }
 
 .curriculum{
-    background-color: #979DAC;
+     background-color: #979DAC;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.certificates-box{
+	margin: 10px;
+	margin: 10px;
+	width: 450px;
+}
+.certificate-img{
+        object-fit:cover;
+	width: 500px;
+	height: 200px;
+}
+.certificate-description{
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+	margin: 20px;
+	position: relative;
+}
+.certificate-url{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0353A4;
+	border: 1px solid;
 }
 .contact{
     margin:0 auto;
