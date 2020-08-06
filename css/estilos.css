@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family:Mulish, varta, quicksand;
-    color:white;
 }
 figure{
     margin:0;
@@ -46,25 +45,27 @@ figure{
 	align-items: inherit;
 	flex-wrap: inherit;
 }
-h1, h2 {
+h2 {
      font-size: 30px;
-     margin: 4%
+     margin: 4%;
+	background-color: #0353A4;
 }
 .about{
      height:250px;
      margin: 5%;
      display:flex;
+	background-color: #0353A4;
 }
 .luis{
      display:flex;
      width: 30%;
      justify-content:center;
 }
-.me{
+.me, h1{
      white-space: normal;
      width: 60%;
      text-align: justify;
-     font-size: 28px;
+     font-size: 34px;
      align-items:center;
 }
 
