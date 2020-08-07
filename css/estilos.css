@@ -45,42 +45,42 @@ figure{
 	align-items: inherit;
 	flex-wrap: inherit;
 }
-h2 {
-     font-size: 30px;
-     margin: 4%;
-	background-color: #0353A4;
-}
+
 .about{
-     height:250px;
+     height:300px;
      margin: 5%;
      display:flex;
-	background-color: #0353A4;
 }
 .luis{
      display:flex;
      width: 30%;
      justify-content:center;
+	overflow: hidden;
 }
-.me, h1{
+.me {
      white-space: normal;
      width: 60%;
      text-align: justify;
      font-size: 34px;
      align-items:center;
 }
-
 .curriculum{
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
 }
-
+h2 {
+     font-size: 30px;
+     margin: 4%;
+	width:1000px;
+}
 .certificates-box{
 	border: 1px solid #ccc;
 	margin: 10px;
 	width: 450px;
 	overflow: hidden;
 	border-radius: 5px;
+	
 }
 .certificate-img{
         object-fit:cover;
@@ -92,8 +92,9 @@ h2 {
 	background-color: white;
 	padding: 10px;
 	margin: 20px;
-	position: relative;
+	margin-top:-50px;
 	border-radius: 5px;
+	position: relative;
 }
 
 .certificate-url{
@@ -104,7 +105,7 @@ h2 {
 	border: 1px solid;
 }
 .contact{
-    margin:0 auto;
+    margin: 0 auto;
     width:1000px;
     display:flex;
     justify-content:space-between;
@@ -112,6 +113,7 @@ h2 {
     height:90px;
     font-size: 18px;
     background-color: #001845;
+    color: white;
     height: inherit;
 }
 .thanks{
@@ -121,13 +123,10 @@ h2 {
     display:flex;
     margin:0;
     padding:0;
-        width:70px;
-	height: 70px;
 }
 .github{
     display:flex;
     margin:0;
     padding:0;	
-	width:70px;
-	height: 70px;
+
 }
