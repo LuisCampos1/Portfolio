@@ -68,7 +68,7 @@ figure{
      align-items:center;
      color: white;
 	padding-top: 30px;
-	padding-left: 15px;
+	padding-left: 30px;
 }
 .curriculum{
      display: flex;
@@ -86,13 +86,12 @@ h2 {
 	width: 450px;
 	overflow: hidden;
 	border-radius: 5px;
-	height:400px;
 	
 }
 .certificate-img{
         object-fit: cover;
 	width: 500px;
-	height:450px;
+	height:300px;
 }
 .certificate-description{
 	text-align: center;
@@ -101,9 +100,6 @@ h2 {
 	margin: 25px;
 	position: relative;
 	border-radius: 5px;
-	margin-top: 350px;
-	float:center;
-	
 }
 
 .certificate-url{
