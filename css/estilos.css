@@ -66,12 +66,12 @@ figure{
      font-size: 34px;
      align-items:center;
      color: white;
+	padding-top: 30px;
 }
 .curriculum{
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
-     background-color: #E0E0E0;
      border-top:0;
 }
 h2 {
@@ -79,17 +79,19 @@ h2 {
 	text-align: center;
 }
 .certificates-box{
-	border: 1px solid #ccc;
+	border: 1px solid #000000;
 	margin: 10px;
 	width: 450px;
 	overflow: hidden;
 	border-radius: 5px;
+	height:400px;
 	
 }
 .certificate-img{
         object-fit:cover;
 	width: 500px;
 	height: 200px;
+	height:450px;
 }
 .certificate-description{
 	text-align: center;
@@ -109,13 +111,11 @@ h2 {
 	border: 1px solid;
 }
 .contact{
-    margin:0 auto;
-    width:1000px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    height:90px;
-    font-size: 18px;
+    height:100px;
+    font-size: 22px;
     background-color: #0353A4;
     height: inherit;
 }
