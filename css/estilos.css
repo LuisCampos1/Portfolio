@@ -47,17 +47,18 @@ figure{
 }
 
 .about{
-     height:300px;
      display:flex;
      background-color: #0353A4;
      border-top: 0;
+     padding:5% 10%;
+     justify-content:space-around;
 }
 .luis{
      display:flex;
      width: 30%;
      justify-content: center;
 	overflow: hidden;
-	border-radius: 5px;
+	border-radius: 10%;
 }
 .me {
      white-space: normal;
@@ -67,6 +68,7 @@ figure{
      align-items:center;
      color: white;
 	padding-top: 30px;
+	padding-left: 15px;
 }
 .curriculum{
      display: flex;
@@ -88,19 +90,20 @@ h2 {
 	
 }
 .certificate-img{
-        object-fit:cover;
+        object-fit: cover;
 	width: 500px;
-	height: 200px;
 	height:450px;
 }
 .certificate-description{
 	text-align: center;
 	background-color: white;
 	padding: 10px;
-	margin: 20px;
+	margin: 25px;
 	position: relative;
 	border-radius: 5px;
-	margin-top:-50px;
+	margin-top: 350px;
+	float:center;
+	
 }
 
 .certificate-url{
