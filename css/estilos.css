@@ -48,7 +48,6 @@ figure{
 
 .about{
      height:300px;
-     margin: 5%;
      display:flex;
      background-color: #0353A4;
      border-top: 0;
@@ -58,6 +57,7 @@ figure{
      width: 30%;
      justify-content: center;
 	overflow: hidden;
+	border-radius: 5px;
 }
 .me {
      white-space: normal;
