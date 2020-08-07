@@ -50,11 +50,13 @@ figure{
      height:300px;
      margin: 5%;
      display:flex;
+     background-color: #0353A4;
+     border-top: 0;
 }
 .luis{
      display:flex;
      width: 30%;
-     justify-content:center;
+     justify-content: center;
 	overflow: hidden;
 }
 .me {
@@ -63,16 +65,18 @@ figure{
      text-align: justify;
      font-size: 34px;
      align-items:center;
+     color: white;
 }
 .curriculum{
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between;
+     justify-content: center;
+     background-color: #E0E0E0;
+     border-top:0;
 }
 h2 {
      font-size: 30px;
-     margin: 4%;
-	width:1000px;
+     margin: 4%;;
 }
 .certificates-box{
 	border: 1px solid #ccc;
@@ -92,9 +96,9 @@ h2 {
 	background-color: white;
 	padding: 10px;
 	margin: 20px;
-	margin-top:-50px;
-	border-radius: 5px;
 	position: relative;
+	border-radius: 5px;
+	margin-top:-50px;
 }
 
 .certificate-url{
@@ -105,26 +109,27 @@ h2 {
 	border: 1px solid;
 }
 .contact{
-    margin: 0 auto;
+    margin:0 auto;
     width:1000px;
     display:flex;
     justify-content:space-between;
     align-items:center;
     height:90px;
     font-size: 18px;
-    background-color: #001845;
-    color: white;
+    background-color: #0353A4;
     height: inherit;
 }
 .thanks{
     display:flex;
+    color: white;
+    margin-left: 5px;
 }
 .ig{
     display:flex;
     margin:0;
     padding:0;
 }
-.github{
+.githubLinkedin{
     display:flex;
     margin:0;
     padding:0;	
