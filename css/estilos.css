@@ -80,6 +80,7 @@ h2 {
 	width: 450px;
 	overflow: hidden;
 	border-radius: 5px;
+	
 }
 .certificate-img{
         object-fit:cover;
@@ -91,9 +92,9 @@ h2 {
 	background-color: white;
 	padding: 10px;
 	margin: 20px;
-	position: relative;
-	border-radius: 5px;
 	margin-top:-50px;
+	border-radius: 5px;
+	position: relative;
 }
 
 .certificate-url{
@@ -104,7 +105,7 @@ h2 {
 	border: 1px solid;
 }
 .contact{
-    margin:0 auto;
+    margin: 0 auto;
     width:1000px;
     display:flex;
     justify-content:space-between;
@@ -112,6 +113,7 @@ h2 {
     height:90px;
     font-size: 18px;
     background-color: #001845;
+    color: white;
     height: inherit;
 }
 .thanks{
