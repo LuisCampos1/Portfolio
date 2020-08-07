@@ -35,7 +35,6 @@ figure{
     height:inherit;
 }
 
-
 .container{
     margin:0 auto;
     width:1000px;
@@ -48,10 +47,10 @@ figure{
 
 .about{
      height:300px;
-     margin: 5%;
      display:flex;
      background-color: #0353A4;
      border-top: 0;
+       padding-top: 0;
 }
 .luis{
      display:flex;
@@ -64,22 +63,23 @@ figure{
      width: 60%;
      text-align: justify;
      font-size: 34px;
-     align-items:center;
+     align-items: center;
      color: white;
 }
 .curriculum{
      display: flex;
      flex-wrap: wrap;
-     justify-content: center;
-     background-color: #E0E0E0;
+     justify-content: flex;
+     background-color: #F0F0F0;
      border-top:0;
+     padding-top: 0;
 }
 h2 {
      font-size: 30px;
      margin: 4%;;
 }
 .certificates-box{
-	border: 1px solid #ccc;
+	border: 1px solid #121212;
 	margin: 10px;
 	width: 450px;
 	overflow: hidden;
@@ -109,13 +109,11 @@ h2 {
 	border: 1px solid;
 }
 .contact{
-    margin:0 auto;
-    width:1000px;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    height:90px;
-    font-size: 18px;
+    height: 100px;
+    font-size: 22px;
     background-color: #0353A4;
     height: inherit;
 }
@@ -133,5 +131,4 @@ h2 {
     display:flex;
     margin:0;
     padding:0;	
-
 }
