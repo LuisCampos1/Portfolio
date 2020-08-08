@@ -55,8 +55,9 @@ figure{
 .luis{
 	display:flex;
 	overflow: hidden;
-	border-radius: 10%;
+	border-radius: 5%;
 	justify-content: center;
+	padding-top: 40px;
 }
 .me {
      white-space: normal;
