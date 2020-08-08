@@ -47,14 +47,16 @@ figure{
 }
 
 .about{
+	display:flex;
      background-color: #0353A4;
      border-top: 0;
      padding:5% 10%;
 }
 .luis{
+	display:flex;
 	overflow: hidden;
-	border-radius: 20px;
-	padding-top: 42px;
+	border-radius: 10%;
+	justify-content: center;
 }
 .me {
      white-space: normal;
