@@ -50,10 +50,8 @@ figure{
      background-color: #0353A4;
      border-top: 0;
      padding:5% 10%;
-     justify-content: center;
 }
 .luis{
-     justify-content: center;
 	overflow: hidden;
 	border-radius: 10%;
 }
@@ -61,7 +59,6 @@ figure{
      white-space: normal;
      text-align: justify;
      font-size: 26px;
-     align-items:center;
      color: white;
 	   padding: 20px;
 }
