@@ -46,7 +46,7 @@ figure{
 	flex-wrap: inherit;
 }
 
-.about, .studies-intro{
+.about{
      display:flex;
      background-color: #0353A4;
      border-top: 0;
@@ -80,21 +80,20 @@ h2 {
         font-size: 30px;
 	text-align: center;
 }
+
 .studies-intro{
 	background-color: #0353A4;
-}
-.studies-title{
-	font-size: 30px;
-	text-align: center;
-	color: white
+     border-top: 0;
+     padding:3px 5px;
+     justify-content:space-around;
 }
 .studies-description{
 	white-space: normal;
 	text-align: justify;
-        font-size: 26px;
+        font-size: 28px;
         align-items:center;
         color: white;
-	padding: 30px;
+	padding: 10px;
 }
 .certificates-box{
 	border: 1px solid #000000;
