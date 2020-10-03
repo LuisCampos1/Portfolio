@@ -46,7 +46,7 @@ figure{
 	flex-wrap: inherit;
 }
 
-.about{
+.about, .studies-intro{
      display:flex;
      background-color: #0353A4;
      border-top: 0;
@@ -70,15 +70,31 @@ figure{
 	padding-top: 30px;
 	padding-left: 30px;
 }
-.curriculum{
+.curriculum, .studies{
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
      border-top:0;
 }
 h2 {
-     font-size: 30px;
+        font-size: 30px;
 	text-align: center;
+}
+.studies-intro{
+	background-color: #0353A4;
+}
+.studies-title{
+	font-size: 30px;
+	text-align: center;
+	color: white
+}
+.studies-description{
+	white-space: normal;
+	text-align: justify;
+        font-size: 26px;
+        align-items:center;
+        color: white;
+	padding: 30px;
 }
 .certificates-box{
 	border: 1px solid #000000;
