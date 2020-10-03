@@ -50,21 +50,21 @@ figure{
 	display:flex;
      background-color: #0353A4;
      border-top: 0;
-     padding:5% 10%;
+     padding:5% 8%;
 }
 .luis{
 	display:flex;
 	overflow: hidden;
-	border-radius: 5%;
+	border-radius: 10%;
 	justify-content: center;
-	padding-top: 40px;
+	padding-top: 45px;
 }
 .me {
      white-space: normal;
      text-align: justify;
-     font-size: 26px;
+     font-size: 24px;
      color: white;
-	   padding: 16px;
+	   padding: 14px;
 }
 .curriculum{
      display: flex;
