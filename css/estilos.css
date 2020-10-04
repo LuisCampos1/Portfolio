@@ -85,6 +85,7 @@ h2 {
 	background-color: #0353A4;
      border-top: 0;
      justify-content:space-around;
+	padding:5% 10%;
 }
 .studies-description{
 	white-space: normal;
@@ -92,7 +93,7 @@ h2 {
         font-size: 32px;
         align-items:center;
         color: white;
-	padding: 12px 20px;
+	padding: 12px 18px;
 }
 .studies{
      display: flex;
