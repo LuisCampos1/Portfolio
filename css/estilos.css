@@ -84,7 +84,6 @@ h2 {
 .studies-intro{
 	background-color: #0353A4;
      border-top: 0;
-     padding:4%;
      justify-content:space-around;
 }
 .studies-description{
@@ -93,7 +92,7 @@ h2 {
         font-size: 32px;
         align-items:center;
         color: white;
-	padding: 12px;
+	padding: 12px 20px;
 }
 .studies{
      display: flex;
