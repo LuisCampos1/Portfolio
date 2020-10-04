@@ -99,6 +99,7 @@ h2 {
      flex-wrap: wrap;
      justify-content: center;
      border-top:0;
+	padding: 5% 10%
 }
 .certificates-box{
 	border: 1px solid #000000;
